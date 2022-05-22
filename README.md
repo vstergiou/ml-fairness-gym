@@ -27,4 +27,3 @@ ml-fairness-gym-discuss@google.com.
 
 # Versions
 v0.1.0: Initial release.
-v0.1.1: Update to use gym 0.19.0.

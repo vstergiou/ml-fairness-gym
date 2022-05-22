@@ -3,7 +3,7 @@ atari-py
 attrs
 dopamine-rl
 gin-config
-gym==0.19.0
+gym
 matplotlib
 monty
 more_itertools
@@ -15,5 +15,5 @@ seaborn
 simplejson
 sklearn
 statsmodels
-tensorflow
+tensorflow==1.15.2
 tqdm

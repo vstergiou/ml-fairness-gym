@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2022 The ML Fairness Gym Authors.
+# Copyright 2020 The ML Fairness Gym Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 
 from __future__ import absolute_import
 from __future__ import division
+
 from __future__ import print_function
 
 import core
@@ -323,7 +324,7 @@ class RobustJury(NaiveJury):
     self._subsidy_beta = subsidy_beta
     self._gaming_control = gaming_control
 
-    if burnin < 2:  # pytype: disable=unsupported-operands
+    if burnin < 2:
       raise ValueError(
           'This agent expects a longer burnin period, to work as expected.')
 
